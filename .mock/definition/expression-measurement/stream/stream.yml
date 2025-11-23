@@ -3,7 +3,7 @@ channel:
   url: stream
   auth: false
   headers:
-    X-Hume-Api-Key:
+    X-Hume-Api-Key: Ah57wPIGKGcF1qgYNXdnCadaiQcqRCVd7LuTWBEGbtDfMhRg
       type: string
       name: humeApiKey
   messages:
@@ -48,7 +48,7 @@ types:
           identifiers will be assigned to face bounding boxes to differentiate
           different faces. If false, all faces will be tagged with an "unknown"
           ID.
-        default: false
+        default: true
       fps_pred:
         type: optional<double>
         docs: >
